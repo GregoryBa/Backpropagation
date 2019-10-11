@@ -1,0 +1,11 @@
+Requirements:
+numpy
+
+To run the code execute this line in terminal:
+python neuralnetwork.py
+Or use any compiler
+
+How the inputs are mapped to the output? (analyze the weights)
+
+The forward pass calculates predicted_output. The first forward pass compares predicted_output with xor_output (that we specified). Depending on this comparison, the weights for hidden and output layers change using backpropagation. We want to find the weight vector with minimum error (squared error loss), also the minimum point of the error on the gradient graph. The script loops itself until the predicted_output is as close as possible to the xor_output (it gets closer the more epochs we specify in the script). 
+I included both the exact and rounded the answer in the script.
